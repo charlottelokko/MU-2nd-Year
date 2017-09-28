@@ -1,0 +1,80 @@
+   body {
+       background-color: lightgray;
+   }
+   
+   h1 {
+       font-family: fantasy;
+       color: cornflowerblue;
+       text-align: center;
+   }
+   
+   .tg {
+       background-color: white;
+       border-collapse: collapse;
+       border-spacing: 0;
+       display: inline-block;
+       table-layout: auto;
+       margin: auto;     
+   }
+   
+   .tg td {
+       font-family: Arial, sans-serif;
+       font-size: 14px;
+       padding: 10px 5px;
+       border-style: solid;
+       border-width: 1px;
+       overflow: hidden;
+       word-break: normal;
+   }
+   
+   .tg th {
+       font-family: Arial, sans-serif;
+       font-size: 14px;
+       font-weight: normal;
+       padding: 10px 5px;
+       border-style: solid;
+       border-width: 1px;
+       overflow: hidden;
+       word-break: normal;
+   }
+   
+   .tg .tg-88fz, td {
+       text-decoration: none;
+       font-size: 20px;
+       text-align: center;
+       margin-left: 10%;
+   }
+   
+   .blank {
+       background-color: lightgray;
+   }
+   
+   
+   @media screen and (max-width: 767px) {
+       .tg {
+           width: auto !important;
+       }
+       .tg col {
+           width: auto !important;
+       }
+       .tg-wrap {
+           overflow-x: auto;
+           overflow-scrolling: touch;
+           margin: auto 0px;
+       }
+   }
+   
+   .img {
+       display: inline-block;
+   }
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+border: 1px solid #000000;
+box-shadow: 10px 10px 5px #888888;
+    
+}
