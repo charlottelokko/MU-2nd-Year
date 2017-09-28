@@ -1,0 +1,138 @@
+<header>
+<title>Student grades</title>
+<link rel="stylesheet" type="text/css" href="Assignment1.css">
+<script src="Assignment1.js">
+</script>
+
+</header>
+
+<body>
+    <h1>
+   Student Grades:
+ </h1>
+    <div class="tg-wrap">
+        <table id="score" class="tg"
+            onkeyup = "checkValid()">
+            <tr>
+                <th class="tg-pu2m">Name</th>
+                <th class="tg-wvbv">Student Number</th>
+                <th class="tg-huc9">Assignment 1</th>
+                <th class="tg-huc9">Assignment 2</th>
+                <th class="tg-huc9">Assignment 3</th>
+                <th class="tg-huc9">Assignment 4</th>
+                <th class="tg-huc9">Assignment 5</th>
+                <th class="tg-huc9">Final Grade</th>
+            </tr>
+            <tr>
+                <td class="tg-ihln">John Davis</td>
+                <td class="tg-ihln">14658935</td>
+                <td contenteditable='true' class="tg-baqh" >49.5</td>
+                <td contenteditable='true' class="tg-baqh" >32.8</td>
+                <td contenteditable='true' class="tg-baqh" >21.3</td>
+                <td contenteditable='true' class="tg-baqh" >49.2</td>
+                <td contenteditable='true' class="tg-baqh" >40.9</td>
+                <td class="tg-baqh" ></td>
+            </tr>
+            <tr>
+                <td class="tg-ihln">Lucy Moore</td>
+                <td class="tg-ihln">16498531</td>
+                <td contenteditable='true' class="tg-baqh">49.52</td>
+                <td contenteditable='true' class="tg-baqh">79.5</td>
+                <td contenteditable='true' class="tg-baqh">24.6</td>
+                <td contenteditable='true' class="tg-baqh">48.6</td>
+                <td contenteditable='true' class="tg-baqh">31.5</td>
+                <td class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-ihln">Suzy Beth Connors</td>
+                <td contenteditable='true' class="tg-ihln">15678432</td>
+                <td contenteditable='true' class="tg-baqh">99.1</td>
+                <td contenteditable='true' class="tg-baqh">46.8</td>
+                <td contenteditable='true' class="tg-baqh">85.77</td>
+                <td contenteditable='true' class="tg-baqh">94.35</td>
+                <td contenteditable='true' class="tg-baqh">86</td>
+                <td class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-ihln">Alec Bane</td>
+                <td class="tg-ihln">16895438</td>
+                <td contenteditable='true' class="tg-baqh">99</td>
+                <td contenteditable='true' class="tg-baqh">-</td>
+                <td contenteditable='true' class="tg-baqh">89</td>
+                <td contenteditable='true' class="tg-baqh">92</td>
+                <td contenteditable='true' class="tg-baqh">86</td>
+                <td class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-ihln">Clary Fairchild</td>
+                <td class="tg-ihln">16598753</td>
+                <td contenteditable='true' class="tg-baqh">58</td>
+                <td contenteditable='true' class="tg-baqh">65.5</td>
+                <td contenteditable='true' class="tg-baqh">48.7</td>
+                <td contenteditable='true' class="tg-baqh">76.2</td>
+                <td contenteditable='true' class="tg-baqh">68</td>
+                <td class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-ihln">Jace Morgernstern</td>
+                <td class="tg-ihln">16547953</td>
+                <td contenteditable='true' class="tg-baqh">95</td>
+                <td contenteditable='true' class="tg-baqh">75</td>
+                <td contenteditable='true' class="tg-baqh">-</td>
+                <td contenteditable='true' class="tg-baqh">87</td>
+                <td contenteditable='true' class="tg-baqh">90</td>
+                <td class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-ihln">Izzy Parker</td>
+                <td class="tg-ihln">15479876</td>
+                <td contenteditable='true' class="tg-baqh">48</td>
+                <td contenteditable='true' class="tg-baqh">52</td>
+                <td contenteditable='true' class="tg-baqh">67</td>
+                <td contenteditable='true' class="tg-baqh">48.5</td>
+                <td contenteditable='true' class="tg-baqh">94.7</td>
+                <td class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-ihln">Max Parker</td>
+                <td class="tg-ihln">19568725</td>
+                <td contenteditable='true' class="tg-baqh">25.2</td>
+                <td contenteditable='true' class="tg-baqh">97.8</td>
+                <td contenteditable='true' class="tg-baqh">48.5</td>
+                <td contenteditable='true' class="tg-baqh">67.5</td>
+                <td contenteditable='true' class="tg-baqh">-</td>
+                <td class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-ihln">Alice Wontavia</td>
+                <td class="tg-ihln">14598625</td>
+                <td contenteditable='true' class="tg-baqh">48.2</td>
+                <td contenteditable='true' class="tg-baqh">67.0</td>
+                <td contenteditable='true' class="tg-baqh">49.7</td>
+                <td contenteditable='true' class="tg-baqh">68.4</td>
+                <td contenteditable='true' class="tg-baqh">97.5</td>
+                <td class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-ihln">Jake Stem</td>
+                <td class="tg-ihln">16749865</td>
+                <td contenteditable='true' class="tg-baqh">45.8</td>
+                <td contenteditable='true' class="tg-baqh">19.7</td>
+                <td contenteditable='true' class="tg-baqh">63.9</td>
+                <td contenteditable='true' class="tg-baqh">48.8</td>
+                <td contenteditable='true' class="tg-baqh">39.9</td>
+                <td class="tg-baqh"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="space" ></div>
+    <button onclick="calculate()" class=btn> Calculate Average </button>
+        <div class="space" ></div>
+    <button onclick="toCSV()" class= "btn1" > Download as CSV</button>
+        <div class="space" ></div>
+    <div id="unsub" class="u">
+        <p>Unsubmitted Assignments: <span id="count"></span>
+        </p>
+    </div>
+</body>
