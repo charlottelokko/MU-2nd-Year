@@ -1,0 +1,367 @@
+<HTML>
+<header>
+    <title>Learn Hiragana!!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Assignment4.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="Assignment4.js"></script>
+</header>
+
+<body>
+    <div class="container">
+        <h1>Learn Hirigana!</h1>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Learn!</a></li>
+            <li><a data-toggle="tab" href="#TestY">Test Yourself!</a></li>
+            <li><a data-toggle="tab" href="#PreviousT">Previous Tests</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <table class="table table-bordered" style="background-color: white" style="border: 2px solid black" class="tg" cellspacing="10">
+                    <tr>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('a').play()" src="Images/a.png" height="80" width="80" alt="a"></img>
+                            <br> a
+                            <audio controls id="a" style="display:none">
+                                <source src="Sounds/a.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('i').play()" src="Images/i.png" height="80" width="80" alt="i"></img>
+                            <br> i
+                            <audio controls id="i" style="display:none">
+                                <source src="Sounds/i.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('u').play()" src="Images/u.png" height="80" width="80" alt="u"></img>
+                            <br> u
+                            <audio controls id="u" style="display:none">
+                                <source src="Sounds/u.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('e').play()" src="Images/e.png" height="80" width="80" alt="e"></img>
+                            <br> e
+                            <audio controls id="e" style="display:none">
+                                <source src="Sounds/e.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('o').play()" src="Images/o.png" height="80" width="80" alt="o"></img>
+                            <br> o
+                            <audio controls id="o" style="display:none">
+                                <source src="Sounds/o.mp3" type="audio/mp3" </audio> </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ka').play()" src="Images/ka.png" height="80" width="80" alt="ka"></img>
+                            <br> ka
+                            <audio controls id="ka" style="display:none">
+                                <source src="Sounds/ka.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ki').play()" src="Images/ki.png" height="80" width="80" alt="ki"></img>
+                            <br> ki
+                            <audio controls id="ki" style="display:none">
+                                <source src="Sounds/ki.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ku').play()" src="Images/ku.png" height="80" width="80" alt="ku"></img>
+                            <br> ku
+                            <audio controls id="ku" style="display:none">
+                                <source src="Sounds/ku.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ke').play()" src="Images/ke.png" height="80" width="80" alt="ke"></img>
+                            <br> ke
+                            <audio controls id="ke" style="display:none">
+                                <source src="Sounds/ke.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ko').play()" src="Images/ko.png" height="80" width="80" alt="ko"></img>
+                            <br> ko
+                            <audio controls id="ko" style="display:none">
+                                <source src="Sounds/ko.mp3" type="audio/mp3" </audio> </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('sa').play()" src="Images/sa.png" height="80" width="80" alt="sa"></img>
+                            <br> sa
+                            <audio controls id="sa" style="display:none">
+                                <source src="Sounds/sa.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('shi').play()" src="Images/shi.png" height="80" width="80" alt="shi"></img>
+                            <br> shi
+                            <audio controls id="shi" style="display:none">
+                                <source src="Sounds/shi.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('su').play()" src="Images/su.png" height="80" width="80" alt="su"></img>
+                            <br> su
+                            <audio controls id="su" style="display:none">
+                                <source src="Sounds/su.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('se').play()" src="Images/se.png" height="80" width="80" alt="se"></img>
+                            <br> se
+                            <audio controls id="se" style="display:none">
+                                <source src="Sounds/se.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('so').play()" src="Images/so.png" height="80" width="80" alt="so"></img>
+                            <br> so
+                            <audio controls id="so" style="display:none">
+                                <source src="Sounds/so.mp3" type="audio/mp3" </audio> </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ta').play()" src="Images/ta.png" height="80" width="80" alt="ta"></img>
+                            <br> ta
+                            <audio controls id="ta" style="display:none">
+                                <source src="Sounds/ta.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('chi').play()" src="Images/chi.png" height="80" width="80" alt="chi"></img>
+                            <br> chi
+                            <audio controls id="chi" style="display:none">
+                                <source src="Sounds/chi.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('tsu').play()" src="Images/tsu.png" height="80" width="80" alt="tsu"></img>
+                            <br> tsu
+                            <audio controls id="tsu" style="display:none">
+                                <source src="Sounds/tsu.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('te').play()" src="Images/te.png" height="80" width="80" alt="te"></img>
+                            <br> te
+                            <audio controls id="te" style="display:none">
+                                <source src="Sounds/te.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('to').play()" src="Images/to.png" height="80" width="80" alt="to"></img>
+                            <br> to
+                            <audio controls id="to" style="display:none">
+                                <source src="Sounds/to.mp3" type="audio/mp3" </audio> </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('na').play()" src="Images/na.png" height="80" width="80" alt="na"></img>
+                            <br> na
+                            <audio controls id="na" style="display:none">
+                                <source src="Sounds/na.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ni').play()" src="Images/ni.png" height="80" width="80" alt="ni"></img>
+                            <br> ni
+                            <audio controls id="ni" style="display:none">
+                                <source src="Sounds/ni.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('nu').play()" src="Images/nu.png" height="80" width="80" alt="nu"></img>
+                            <br> nu
+                            <audio controls id="nu" style="display:none">
+                                <source src="Sounds/nu.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ne').play()" src="Images/ne.png" height="80" width="80" alt="ne"></img>
+                            <br> ne
+                            <audio controls id="ne" style="display:none">
+                                <source src="Sounds/ne.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('no').play()" src="Images/no.png" height="80" width="80" alt="no"></img>
+                            <br> no
+                            <audio controls id="no" style="display:none">
+                                <source src="Sounds/no.mp3" type="audio/mp3" </audio> </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ha').play()" src="Images/ha.png" height="80" width="80" alt="ha"></img>
+                            <br> ha
+                            <audio controls id="ha" style="display:none">
+                                <source src="Sounds/ha.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('hi').play()" src="Images/hi.png" height="80" width="80" alt="hi"></img>
+                            <br> hi
+                            <audio controls id="hi" style="display:none">
+                                <source src="Sounds/hi.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('fu').play()" src="Images/fu.png" height="80" width="80" alt="fu"></img>
+                            <br> fu
+                            <audio controls id="fu" style="display:none">
+                                <source src="Sounds/fu.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('he').play()" src="Images/he.png" height="80" width="80" alt="he"></img>
+                            <br> he
+                            <audio controls id="he" style="display:none">
+                                <source src="Sounds/he.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ho').play()" src="Images/ho.png" height="80" width="80" alt="ho"></img>
+                            <br> ho
+                            <audio controls id="ho" style="display:none">
+                                <source src="Sounds/ho.mp3" type="audio/mp3" </audio> </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ma').play()" src="Images/ma.png" height="80" width="80" alt="ma"></img>
+                            <br> ma
+                            <audio controls id="ma" style="display:none">
+                                <source src="Sounds/ma.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('mi').play()" src="Images/mi.png" height="80" width="80" alt="mi"></img>
+                            <br> mi
+                            <audio controls id="mi" style="display:none">
+                                <source src="Sounds/mi.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('mu').play()" src="Images/mu.png" height="80" width="80" alt="mu"></img>
+                            <br> mu
+                            <audio controls id="mu" style="display:none">
+                                <source src="Sounds/mu.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('me').play()" src="Images/me.png" height="80" width="80" alt="me"></img>
+                            <br> me
+                            <audio controls id="me" style="display:none">
+                                <source src="Sounds/me.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('mo').play()" src="Images/mo.png" height="80" width="80" alt="mo"></img>
+                            <br> mo
+                            <audio controls id="mo" style="display:none">
+                                <source src="Sounds/mo.mp3" type="audio/mp3" </audio> </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ya').play()" src="Images/ya.png" height="80" width="80" alt="ya"></img>
+                            <br> ya
+                            <audio controls id="ya" style="display:none">
+                                <source src="Sounds/ya.mp3" type="audio/mp3" </audio> </td>
+                        <th class="blank"></th>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('yu').play()" src="Images/yu.png" height="80" width="80" alt="yu"></img>
+                            <br> yu
+                            <audio controls id="yu" style="display:none">
+                                <source src="Sounds/yu.mp3" type="audio/mp3" </audio> </td>
+                        <th class="blank"></th>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('yo').play()" src="Images/yo.png" height="80" width="80" alt="yo"></img>
+                            <br> yo
+                            <audio controls id="yo" style="display:none">
+                                <source src="Sounds/yo.mp3" type="audio/mp3" </audio> </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ra').play()" src="Images/ra.png" height="80" width="80" alt="ra"></img>
+                            <br> ra
+                            <audio controls id="ra" style="display:none">
+                                <source src="Sounds/ra.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ri').play()" src="Images/ri.png" height="80" width="80" alt="ri"></img>
+                            <br> ri
+                            <audio controls id="riru" style="display:none">
+                                <source src="Sounds/ru.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ru').play()" src="Images/ru.png" height="80" width="80" alt="ru"></img>
+                            <br> ru
+                            <audio controls id="ru" style="display:none">
+                                <source src="Sounds/ru.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('re').play()" src="Images/re.png" height="80" width="80" alt="re"></img>
+                            <br> re
+                            <audio controls id="re" style="display:none">
+                                <source src="Sounds/re.mp3" type="audio/mp3" </audio> </td>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('ro').play()" src="Images/ro.png" height="80" width="80" alt="ro"></img>
+                            <br> ro
+                            <audio controls id="ro" style="display:none">
+                                <source src="Sounds/ro.mp3" type="audio/mp3" </audio> </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('wa').play()" src="Images/wa.png" height="80" width="80" alt="wa"></img>
+                            <br> wa
+                            <audio controls id="wa" style="display:none">
+                                <source src="Sounds/wa.mp3" type="audio/mp3" </audio> </td>
+                        <th class="blank"></th>
+                        <th class="blank"></th>
+                        <th class="blank"></th>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('wo').play()" src="Images/wo.png" height="80" width="80" alt="wo"></img>
+                            <br> wo
+                            <audio controls id="wo" style="display:none">
+                                <source src="Sounds/wo.mp3" type="audio/mp3" </audio> </td>
+                    </tr>
+                    <tr>
+                        <th class="blank"></th>
+                        <th class="blank"></th>
+                        <td class="tg-88fz"><img class="gif" onclick="document.getElementById('n').play()" src="Images/n.png" height="80" width="80" alt="n"></img>
+                            <br> n
+                            <audio controls id="n" style="display:none">
+                                <source src="Sounds/n.mp3" type="audio/mp3" </audio> </td>
+                        <th class="blank"></th>
+                        <th class="blank"></th>
+                    </tr>
+                </table>
+                <p>Images source: https://commons.wikimedia.org/wiki/Hiragana</p>
+                <p>Sounds source: http://www.guidetojapanese.org/learn/complete/hiragana</p>
+                <p>Source: https://www.w3schools.com/</p>
+                <p>Source: http://stackoverflow.com/</p>
+                <p>Source: https://codepen.io/</p>
+            </div>
+            <div id="TestY" class="tab-pane fade">
+                <div id="StartQ">
+                    <h3>Test Yourself!</h3>
+                    <p>Pick your poison....</p>
+                    <div id="Quiz" onsubmit="checkBox return false">
+                        <input type="checkbox" name="Group" value="a">a
+                        <br>
+                        <input type="checkbox" name="Group" value="i">i
+                        <br>
+                        <input type="checkbox" name="Group" value="u">u
+                        <br>
+                        <input type="checkbox" name="Group" value="e">e
+                        <br>
+                        <input type="checkbox" name="Group" value="o">o
+                        <br>
+                        <input type="checkbox" name="Group" value="ka">ka
+                        <br>
+                        <input type="checkbox" name="Group" value="ki">ki
+                        <br>
+                        <input type="checkbox" name="Group" value="ku">ku
+                        <br>
+                        <input type="checkbox" name="Group" value="ke">ke
+                        <br>
+                        <input type="checkbox" name="Group" value="ko">ko
+                        <br>
+                        <!--     <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+    <input type="checkbox" name="Group" value="vowels">a,i,u,e,o<br>
+<input type="checkbox" name="Group" value="k" >ka,ki,ku,ke,ko<br>
+<input type="checkbox" name="Group" value="s">sa,si,su,se,so<br>
+<input type="checkbox" name="Group" value="t">ta,chi,tsu,te,to<br>
+<input type="checkbox" name="Group" value="n">na,ni,nu,ne,no<br>
+<input type="checkbox" name="Group" value="h">ha,hi,fu,he,ho<br>
+<input type="checkbox" name="Group" value="m">ma,mi,mu,me,mo<br>
+<input type="checkbox" name="Group" value="y">ya,yu,yo<br>
+<input type="checkbox" name="Group" value="r">ra,ri,ru,re,ro<br>
+<input type="checkbox" name="Group" value="w">wa,wo<br>
+<input type="checkbox" name="Group" value="nn">n<br>  -->
+                        <button type="button" onclick="checkBox()">Start!</button>
+                    </div>
+                </div>
+                <div class="container">
+                    <h3>Hirigana Quiz!</h3>
+                    <ul class="nav nav-pills">
+                        <li class="active"><a data-toggle="pill" href="#q1">Question 1</a></li>
+                        <li><a data-toggle="pill" href="#q2">Question 2</a></li>
+                        <li><a data-toggle="pill" href="#q3">Question 3</a></li>
+                        <li><a data-toggle="pill" href="#q4">Question 4</a></li>
+                        <li><a data-toggle="pill" href="#q5">Question 5</a></li>
+                        <li><a data-toggle="pill" href="#q6">Question 6</a></li>
+                        <li><a data-toggle="pill" href="#q7">Question 7</a></li>
+                        <li><a data-toggle="pill" href="#q8">Question 8</a></li>
+                        <li><a data-toggle="pill" href="#q9">Question 9</a></li>
+                        <li><a data-toggle="pill" href="#q10">Question 10</a></li>
+                    </ul>
+                    <div id="tabbys" class="tab-content">
+                        <div id="q1" class="tab-pane fade in active"></div>
+                        <div id="q2" class="tab-pane fade"></div>
+                        <div id="q3" class="tab-pane fade"> </div>
+                        <div id="q4" class="tab-pane fade"> </div>
+                        <div id="q5" class="tab-pane fade"> </div>
+                        <div id="q6" class="tab-pane fade"> </div>
+                        <div id="q7" class="tab-pane fade"> </div>
+                        <div id="q8" class="tab-pane fade"> </div>
+                        <div id="q9" class="tab-pane fade"> </div>
+                        <div id="q10" class="tab-pane fade"> </div>
+                    </div>
+                    <!--<form name="quiz">
+1.Which is the character a?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q1" value="あ">あ</li>
+  <li><input type="radio" name="q1" value="お">お</li>
+  <li><input type="radio" name="q1" value="え">え</li>
+</ul>
+
+2. What does this symbol represent い?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q2" value="e">e</li>
+  <li><input type="radio" name="q2" value="i">i</li>
+  <li><input type="radio" name="q2" value="o">o</li>
+</ul>
+3.What does this symbol represent え?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q3" value="e">e</li>
+  <li><input type="radio" name="q3" value="u">u</li>
+  <li><input type="radio" name="q3" value="a">a</li>
+</ul>
+4.Which is the character u?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q4" value="え">え</li>
+  <li><input type="radio" name="q4" value="お">あ</li>
+  <li><input type="radio" name="q4" value="う">う</li>
+</ul>
+
+<input type="button" value="Get score" onClick="getScore(this.form)">
+<input type="reset" value="Clear answers">
+<p> Score = <strong><input class="bgclr" type="text" size="5" name="percentage" disabled></strong><br><br>
+Correct answers:<br>
+<textarea class="bgclr" name="solutions" wrap="virtual" rows="4" cols="30" disabled>
+</textarea>
+</form>-->
+                </div>
+            </div>
+            <div id="PreviousT" class="tab-pane fade">
+                <h3>Your results</h3> </div>
+        </div>
+    </div>
+</body>
+
+</HTML>
