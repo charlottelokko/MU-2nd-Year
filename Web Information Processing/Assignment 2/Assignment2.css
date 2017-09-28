@@ -1,0 +1,142 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    color:darkred;
+    text-align: center;
+    font-family: fantasy;
+    
+}
+
+.tg {
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #999;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 20px 20px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #999;
+    color: #444;
+    background-color: #F7FDFA;
+}
+
+.tg tr:first-child td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 20px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #999;
+    color: #fff;
+    background-color: #26ADE4;
+}
+
+.tg .tg-s6z2 {
+    text-align: center
+}
+
+.tg .tg-baqh {
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-lqy6 {
+    text-align: right;
+    vertical-align: top
+}
+
+.tg .tg-yw4l {
+    vertical-align: top
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    background-color: aquamarine;
+     border-radius: 33px;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: darkred;
+    text-decoration:none;
+    color: whitesmoke;
+}
+
+.btn1{
+    display:block;
+    margin:auto;
+    background-color: cadetblue;
+    border-radius: 33px;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration:none;
+}
+
+.btn1:hover{
+    background: darkred;
+    text-decoration: none;
+}
+
+.btn2{
+    display:block;
+    margin:auto;
+    background-color: orangered;
+    border-radius: 33px;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration:none;
+}
+.btn2:hover{
+    background: darkred;
+    text-decoration: none;
+}
+
+/*.flex {
+    display: block;
+    display: flex;
+   
+}
+
+.flex-child {
+    flex:  1 1 auto;
+}*/
+
+.u {
+    display: block;
+    margin: auto;
+    background-color: #077f71;
+    border-radius: 31px;
+    height:10%;
+    width: 20%;
+    text-align: center;
+    font-family: Arial;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    
+}
+.space {
+    height: 1.5%;
+}
