@@ -1,0 +1,44 @@
+<header>
+    <title>Student grades</title>
+    <link rel="stylesheet" type="text/css" href="Assignment2.css">
+    <script src="Assignment2.js">
+    </script>
+</header>
+
+<body>
+    <h1>
+    Student Grades:
+    </h1>
+    <table id="score" class="tg" contenteditable="true" onkeyup="checkValid()">
+        <tr>
+            <td class="tg-s6z2">Student Name</td>
+            <td class="tg-baqh">Student Number</td>
+            <td class="tg-baqh">Assignment: 1</td>
+            <td class="tg-baqh">Final Grade</td>
+        </tr>
+        <tr id="row">
+            <td class="tg-yw4l">-</td>
+            <td class="tg-yw4l">-</td>
+            <td class="tg-lqy6">-</td>
+            <td class="tg-lqy6">-</td>
+        </tr>
+    </table>
+    <div class="space"></div>
+    <button onclick="calculate()" class=btn> Calculate Average </button>
+    <div class="space"></div>
+
+    <button onclick="addRow()" class="btn1"> Add Row </button>
+    <button onclick="delRow()" class="btn1"> Delete Row </button>
+    <button onclick="addCol()" class="btn1"> Add Column </button>
+    <button onclick="delCol()" class="btn1"> Delete Column </button>
+    <button onclick="undoCookie()" class="btn1"> Undo delete </button>
+
+    <div class="space"></div>
+    <button onclick="toCookie()" class="btn2"> Save Cookie </button>
+    <button onclick="loadCookie()" class="btn2"> Load Cookie </button>
+    <div class="space"></div>
+
+    <div id="unsub" class="u">
+        <p>Unsubmitted Assignments: <span id="count"></span> </p>
+    </div>
+</body>
